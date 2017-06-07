@@ -1,3 +1,4 @@
+// 求最小值，会过滤 undefined, null 值
 export default function(values, valueof) {
   var n = values.length,
       i = -1,
@@ -32,3 +33,10 @@ export default function(values, valueof) {
 
   return min;
 }
+/*
+  d3.min([2, 3, null, 3, 'a', undefined, 1])  // 1
+  d3.min(['10', '2', '3'])  // 10
+  d3.min([3, 2, 1], function (item, index) {
+      return item * (index + 1);
+  })  // 3
+*/

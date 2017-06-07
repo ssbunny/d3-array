@@ -2,6 +2,7 @@ import ascending from "./ascending";
 import number from "./number";
 import quantile from "./quantile";
 
+// 求 中位数
 export default function(values, valueof) {
   var n = values.length,
       i = -1,
@@ -23,6 +24,7 @@ export default function(values, valueof) {
       }
     }
   }
-
+  // 上面的代码处理 NaN 并做转换，核心代码只是下面一句：
+  // 排序 -> 求2分位数 -> 中位数
   return quantile(numbers.sort(ascending), 0.5);
 }

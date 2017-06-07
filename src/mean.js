@@ -1,5 +1,6 @@
 import number from "./number";
 
+// 求 平均数
 export default function(values, valueof) {
   var n = values.length,
       m = n,
@@ -23,3 +24,7 @@ export default function(values, valueof) {
 
   if (m) return sum / m;
 }
+/**
+ * console.log(d3.mean([1, 4, 5, 4]));     // 3.5
+ * console.log(d3.mean(['1', '3', 'a']));  // 2
+ */

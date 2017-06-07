@@ -1,3 +1,4 @@
+// 求最大值，同 min.js
 export default function(values, valueof) {
   var n = values.length,
       i = -1,
