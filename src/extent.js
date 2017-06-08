@@ -1,3 +1,4 @@
+// 同时取最小值、最大值，返回二维数组
 export default function(values, valueof) {
   var n = values.length,
       i = -1,

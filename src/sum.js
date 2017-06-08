@@ -1,3 +1,4 @@
+// 求合，忽略 undefined 和 NaN
 export default function(values, valueof) {
   var n = values.length,
       i = -1,
@@ -6,6 +7,7 @@ export default function(values, valueof) {
 
   if (valueof == null) {
     while (++i < n) {
+      // 注： +null === 0
       if (value = +values[i]) sum += value; // Note: zero and null are equivalent.
     }
   }

@@ -1,5 +1,6 @@
 import number from "./number";
 
+// 样本方差，总体方差的无偏估计
 export default function(values, valueof) {
   var n = values.length,
       m = 0,
