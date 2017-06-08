@@ -7,8 +7,8 @@
 * [x] bisect.js - 二分函数，左、右两种
 * [x] bisector.js - 自定义二分函数，重置比较器
 * [x] constant.js - 通过闭包函数构造常数
-* [ ] cross.js
-* [ ] descending.js
+* [x] cross.js - 笛卡尔积
+* [x] descending.js - 数字的降序排序算法
 * [x] deviation.js - 均方差
 * [x] extent.js - 同时取最小值、最大值
 * [ ] histogram.js
@@ -16,10 +16,10 @@
 * [x] max.js - 最大值
 * [x] mean.js - 平均数
 * [x] median.js - 中位数
-* [ ] merge.js
+* [x] merge.js - 合并数组元素
 * [x] min.js - 最小值
 * [x] number.js - 强制转换成数字格式
-* [ ] pairs.js
+* [x] pairs.js - 毗邻的两个元素组合成一对
 * [ ] permute.js
 * [x] quantile.js - p分位数
 * [ ] range.js
