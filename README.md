@@ -20,11 +20,11 @@
 * [x] min.js - 最小值
 * [x] number.js - 强制转换成数字格式
 * [x] pairs.js - 毗邻的两个元素组合成一对
-* [ ] permute.js
+* [x] permute.js - 重排数组
 * [x] quantile.js - p分位数
 * [ ] range.js
 * [x] scan.js - 通过 comparator 函数，线性遍历得到最小值的索引
-* [ ] shuffle.js
+* [x] shuffle.js - 使用洗牌算法将数组随机排序
 * [x] sum.js - 求合
 * [ ] ticks.js
 * [ ] transpose.js
