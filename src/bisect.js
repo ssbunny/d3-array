@@ -1,7 +1,7 @@
 import ascending from "./ascending";
 import bisector from "./bisector";
 
-// 对应 API :
+// 二分函数，对应 API :
 // d3.bisect(array, x[, lo[, hi]])
 // d3.bisectLeft(array, x[, lo[, hi]])
 // d3.bisectRight(array, x[, lo[, hi]])

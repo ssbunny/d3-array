@@ -11,7 +11,7 @@
 * [x] descending.js - 数字的降序排序算法
 * [x] deviation.js - 均方差
 * [x] extent.js - 同时取最小值、最大值
-* [ ] histogram.js
+* [x] histogram.js - 直方图
 * [x] identity.js - 内部使用，恒等函数
 * [x] max.js - 最大值
 * [x] mean.js - 平均数
@@ -30,6 +30,6 @@
 * [x] transpose.js - 转置矩阵
 * [x] variance.js - 样本方差
 * [x] zip.js - 转置矩阵(参数为矩阵行，参见 transpose.js)
-* [ ] threshold/freedmanDiaconis.js
-* [ ] threshold/scott.js
-* [ ] threshold/sturges.js
+* [x] threshold/freedmanDiaconis.js - 给 histogram.thresholds 使用，Freedman–Diaconis rule
+* [x] threshold/scott.js - 给 histogram.thresholds 使用，Scott's normal reference rule
+* [x] threshold/sturges.js - 给 histogram.thresholds 使用，Sturges' formula

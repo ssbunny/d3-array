@@ -7,6 +7,7 @@ import range from "./range";
 import {tickStep} from "./ticks";
 import sturges from "./threshold/sturges";
 
+// 直方图（返回的是函数）
 export default function() {
   var value = identity,
       domain = extent,
