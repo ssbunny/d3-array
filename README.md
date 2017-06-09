@@ -12,7 +12,7 @@
 * [x] deviation.js - 均方差
 * [x] extent.js - 同时取最小值、最大值
 * [ ] histogram.js
-* [ ] identity.js
+* [x] identity.js - 内部使用，恒等函数
 * [x] max.js - 最大值
 * [x] mean.js - 平均数
 * [x] median.js - 中位数
@@ -22,14 +22,14 @@
 * [x] pairs.js - 毗邻的两个元素组合成一对
 * [x] permute.js - 重排数组
 * [x] quantile.js - p分位数
-* [ ] range.js
+* [x] range.js - 等差级数
 * [x] scan.js - 通过 comparator 函数，线性遍历得到最小值的索引
 * [x] shuffle.js - 使用洗牌算法将数组随机排序
 * [x] sum.js - 求合
-* [ ] ticks.js
-* [ ] transpose.js
+* [ ] ticks.js - 计算滴答数(TODO: 算法没看懂)
+* [x] transpose.js - 转置矩阵
 * [x] variance.js - 样本方差
-* [ ] zip.js
+* [x] zip.js - 转置矩阵(参数为矩阵行，参见 transpose.js)
 * [ ] threshold/freedmanDiaconis.js
 * [ ] threshold/scott.js
 * [ ] threshold/sturges.js

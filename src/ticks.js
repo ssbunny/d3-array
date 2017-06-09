@@ -2,6 +2,7 @@ var e10 = Math.sqrt(50),
     e5 = Math.sqrt(10),
     e2 = Math.sqrt(2);
 
+// 计算滴答数(ticks)
 export default function(start, stop, count) {
   var reverse = stop < start,
       i = -1,
@@ -9,6 +10,7 @@ export default function(start, stop, count) {
       ticks,
       step;
 
+  // 倒序： d3.ticks(20, 10, 5) --> [20, 18, 16, 14, 12, 10]
   if (reverse) n = start, start = stop, stop = n;
 
   if ((step = tickIncrement(start, stop, count)) === 0 || !isFinite(step)) return [];
